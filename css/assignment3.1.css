@@ -3,108 +3,135 @@
 .main-bax{
     width: 1200px;
     height: 1000px;
-    background-color: white;
+    background-color:gray;
     margin: auto;
 }
-
 .header{
     width: 1200px;
     height: 150px;
-    background-color: rgb(163, 156, 209);
-    
-    }
-
-.brand{
+    background-color:darkcyan;
+}
+.branding{
     width: 400px;
     height: 150px;
-    background-color: darkcyan;
-    display: inline;
-    padding: 20px;
-    background: local;
-    
-    }
-
-.media{
-    
-    width: 800px;
-    height: 100px;
-    background-color: palevioletred;
-    display:inline-block;
-    margin-left:  250px;
-    text-align: left;
-     }
-.menu{
-    width: 800px;
-    height: 50px;
-    background-color: rgb(173, 108, 108);
-    margin-top: 82px;
-    text-align: center;
-    
+    background-color:lightcoral;
+    float: left;
+}
+.branding>img{
+    width: 400px;
+    height: 150px;
 }
 
+.socialmedia{
+    width: 800px;
+    height: 100px;
+    background-color:white;
+    float: left;
+    }
+
+.socialmedia>img{
+ height: 70px;
+ width: 100px;
+ margin-top: 10px;
+ text-align: center;
+ margin-left: 80px;
+ 
+}
+    
+  .menu {
+      width: 800px;
+      height: 50px;
+      background-color:rgb(138, 8, 8);
+      float: left;
+      font-size: large;
+      font-weight:bold;
+      }  
+      
+  .menu ul li{
+      float: left;
+      list-style: none;
+      display: block;
+      height:40px ;
+      width:190px ;
+      background-color: white;
+      margin-left: 10px;
+      margin-top: 5px;
+      text-align: center;
+      line-height: 40px;
+    } 
+
+  .menu ul li:hover{
+      background-color: black;
+
+  }
+  .menu ul li a{
+      text-decoration: none;
+    }  
+    
 .container{
     width: 1200px;
     height: 800px;
-    background-color:rgb(143, 108, 124);
-    padding-top: 80px;
+    background-color: palevioletred;
 }
+
 .gallary{
     width: 1200px;
     height: 400px;
-    background-color: darksalmon;
-    padding-top: 100px;
-    text-align: center;
-    }
+    background-color: rgb(131, 184, 131);
+    overflow: scroll;
+}
 
+.gallary img{
+    height: 400px;
+    width: 1200px;
+}
 .courses{
     width: 1200px;
-    height: 400px;
-    background-color:rgb(43, 114, 143);
-
-   }
-
-.camp{
+    height: 300px;
+    background-color: lightseagreen;
+}
+.courses img{
     width: 300px;
     height: 400px;
-    background-color: rgb(175, 64, 179);
-    display: inline-block;
-    text-align: center;
-    }
+}
 
-.cloud{
+.bootcamp{
     width: 300px;
-    height: 400px;
-    background-color: darkcyan;
-    display: inline-block;
-    text-align: center;
-    }
+    height:400px;
+    background-color: aquamarine;
+    float: left;
+}
 
-.machine{
-    width: 300px;
-    height: 400px;
-    background-color:plum;
-    display: inline-block;
-    text-align: center;
-    }
-    
-.system{
+
+ .cloudcomputing{
     width: 300px;
     height: 400px;
     background-color: blueviolet;
-    display: inline;
-    padding-bottom: 380px;
-    padding-right: 130px;
+    float: left;
+}
+
+
+
+.datascience{
+    width: 300px;
+    height: 400px;
+    background-color: cornsilk;
+    float: left;
+}
+
+.systemdesign{
+    width: 300px;
+    height: 400px;
+    background-color:lightcoral;
+    float: left;
+}
+
+
+.footer{ 
+    width: 1200px;
+    height: 50px;
+    background-color: rgb(121, 145, 145);
+}
+.footer h3{
     text-align: center;
 }
-
-.footer{
-    width:1200px ;
-    height: 50px;
-    background-color: rgb(189, 25, 107);
-}
-
-
-
-
-
-
